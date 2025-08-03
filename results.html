@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Analysis Result</title>
+</head>
+<body>
+  <h2>Resume Analysis Result</h2>
+  <p><strong>Total Words:</strong> {{ results["Total Words"] }}</p>
+  <p><strong>Matched Keywords:</strong> {{ results["Matched Keywords"] }}</p>
+  <p><strong>Grammar Issues:</strong> {{ results["Grammar Issues"] }}</p>
+  <p><strong>Readability Score:</strong> {{ results["Readability Score"] }}</p>
+  <p><strong>Suggestions:</strong></p>
+  <ul>
+    {% for suggestion in results["Suggestions"]["Grammar Suggestions"] %}
+      <li>{{ suggestion }}</li>
+    {% endfor %}
+  </ul>
+  <p><strong>ATS Score:</strong> {{ results["Score"] }}/100</p>
+</body>
+</html>

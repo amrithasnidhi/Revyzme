@@ -1,6 +1,6 @@
 # Revyzme
 
-**Revyzme** is an AI-driven résumé analyzer built using Python and Flask. It allows users to upload a PDF résumé and uses Natural Language Processing (NLP) via spaCy to extract and analyze key information like name, email, skills, and work experience.
+**Revyzme** is an AI-driven resume analyzer built using Python and Flask. It allows users to upload a PDF resume and uses Natural Language Processing (NLP) via spaCy to extract and analyze key information like name, email, skills, and work experience.
 
 This tool helps job seekers improve their résumés by understanding which elements are being highlighted and how they align with job requirements.
 
